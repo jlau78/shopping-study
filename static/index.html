@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <script type="text/javascript" src="script/main.js" />
+    <link rel="stylesheet" href="css/mainstyle.css">
+
+    <script>
+        function hideOld(element) {
+            alert('I am going to hide '+element.toString());
+            element.style.display = "none";
+        }
+
+    </script>
+</head>
+<body>
+
+    <div id="main">
+
+            <div id="topNav">
+                    Top navigotor
+
+
+            </div>
+
+            <div id="sideNav" class="sidenavStyle" style="left:10%, size:100px">
+                Hello from side nav
+            </div>
+
+            <div id="bottom">
+                Hidden bottom section
+
+            </div>
+
+            <a href="#" value="hide section" onclick='hide(document.getElementById("bottom"))'>hide me</a>
+    </div>
+
+</body>
+
+<script>
+    
+</script>
+
+</html>
